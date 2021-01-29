@@ -1,0 +1,75 @@
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.metadata
+.springBeans
+.sts4-cache
+.idea
+*.iws
+*.iml
+*.ipr
+.c9/
+*.launch
+*.sublime-workspace
+.jshintrc
+.sublime-project
+.tern-project
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+# Deployment related
+src/main/resources/static/*
+!src/main/resources/static/css
+!src/main/resources/static/logo
+node_modules
+Dockerfilelocal
+src/assets/config/Env.json
+HtmlReport.zip
+HtmlReport/
+debug.log
+test-output/
+LensAOB
