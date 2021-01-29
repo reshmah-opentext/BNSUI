@@ -1,0 +1,10 @@
+com\opentext\businessnetwork\BNSUI\AppTest.class
+com\opentext\businessnetwork\BNSUI\login\BNSUILogin.class
+com\opentext\businessnetwork\BNSUI\utils\FileUtilities.class
+com\opentext\businessnetwork\BNSUI\TestBase.class
+com\opentext\businessnetwork\BNSUI\DataProviderData.class
+com\opentext\businessnetwork\BNSUI\PageBase.class
+com\opentext\businessnetwork\BNSUI\tests\BNSUIScenarios.class
+com\opentext\businessnetwork\BNSUI\tests\BNSUIOperation.class
+com\opentext\businessnetwork\BNSUI\utils\WebUtilities.class
+com\opentext\businessnetwork\BNSUI\utils\GenericMethods.class

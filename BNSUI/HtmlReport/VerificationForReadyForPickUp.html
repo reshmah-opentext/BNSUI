@@ -1,0 +1,106 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="jquery.js"></script><script>
+                    $( document ).ready(function() {
+                    var fail = $("tr.fail");
+                    fail.each(function() {
+                    $(this).prevAll('tr.section').eq(0).css({ "background-color": "red" });
+                    });
+
+                    //collapse and expand sections
+                    $('#tableMain').on('click', 'tr.section',function(){
+                    $(this).nextUntil('tr.section').slideToggle(200);
+                    });
+                    });
+                </script>
+<style>
+                    table.gridtable tr.section~tr.datarow{
+                    display: none;
+                    }
+                    table.gridtable tr.section{
+                    background-color: #008000
+                    }
+                    table.gridtable tr.section:hover {
+                    cursor: pointer;
+                    }
+                    html, body,table{
+                    width:100%;
+                    padding:0;
+                    margin:0;
+                    }
+
+                    table {
+                    table-layout:auto;
+                    }
+
+                    td.wrap{
+                    max-width:200px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    word-wrap: break-word;
+                    }
+                </style>
+</head>
+<body>
+<div id="container" class="container">
+<h1 align="center">Test Results</h1>
+<table id="tableMain" class="gridtable" border="1">
+<thead>
+<tr class="tableheader">
+<th>Step</th><th>Description</th><th>Actual</th><th>Expected</th><th>Status</th><th>Time</th><th>ScreenShot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Open URL</td><td width="20%" align="center" class="wrap">https://visibility-errornotification-web-qa.lens.cfcr-lab.bp-paas.otxlab.net/visibility-errornotification-web/login</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:33:37</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Desired Operation: CSET; Element:  ( name: username )</td><td width="20%" align="center" class="wrap">Set data: reshmah.lab</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:33:37</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Desired Operation: CSET; Element:  ( name: password )</td><td width="20%" align="center" class="wrap">Set data: VMware123!</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:33:37</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Verification</td><td width="20%" align="center" class="wrap">Verify element exists: ( xpath: //img[@title='logout'] )</td><td width="20%" align="center" class="wrap">Element exists</td><td width="20%" align="center" class="wrap">Element exists</td><td BGCOLOR="#00ff00" width="10%" align="center"><b>Pass</b></td><td width="10%" align="center">01-21-2021 20:33:40</td><td width="10%" align="center"><a href="./ScreenShots/screenshot11.jpg">Screen Shot
+                                                            </a></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Desired Operation: CLICK; Element:  ( xpath: //span[contains(text(),'Submit')] )</td><td width="20%" align="center" class="wrap">CLICKed element</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:33:47</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Verification</td><td width="20%" align="center" class="wrap">Verify element exists: ( xpath: //input[@placeholder='From address'] )</td><td width="20%" align="center" class="wrap">Element exists</td><td width="20%" align="center" class="wrap">Element exists</td><td BGCOLOR="#00ff00" width="10%" align="center"><b>Pass</b></td><td width="10%" align="center">01-21-2021 20:34:27</td><td width="10%" align="center"><a href="./ScreenShots/screenshot12.jpg">Screen Shot
+                                                            </a></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Desired Operation: CLICK; Element:  ( xpath: //input[@placeholder='Select Cc(s)'] )</td><td width="20%" align="center" class="wrap">CLICKed element</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:35:06</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Desired Operation: CLICK; Element:  ( xpath: //div[contains(text(),'Sender Contacts')] )</td><td width="20%" align="center" class="wrap">CLICKed element</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:35:11</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Desired Operation: CLICK; Element:  ( xpath: //mat-select[@role='listbox'] )</td><td width="20%" align="center" class="wrap">CLICKed element</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:35:13</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Verification</td><td width="20%" align="center" class="wrap">Verify element exists: ( xpath: //mat-header-cell[contains(text(),'Name')]/../following-sibling::mat-row/mat-cell[contains(text(),' Holla, Reshma ')]/../descendant::div[contains(@class,'no')] )</td><td width="20%" align="center" class="wrap">Element exists</td><td width="20%" align="center" class="wrap">Element exists</td><td BGCOLOR="#00ff00" width="10%" align="center"><b>Pass</b></td><td width="10%" align="center">01-21-2021 20:35:22</td><td width="10%" align="center"><a href="./ScreenShots/screenshot13.jpg">Screen Shot
+                                                            </a></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Desired Operation: CLICK; Element:  ( xpath: //input[@placeholder='Select Bcc(s)'] )</td><td width="20%" align="center" class="wrap">CLICKed element</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:35:34</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Verification</td><td width="20%" align="center" class="wrap">To verify Valid Transaction ID Message</td><td width="20%" align="center" class="wrap"> Notification Sent </td><td width="20%" align="center" class="wrap">Sucess!</td><td BGCOLOR="#00ff00" width="10%" align="center"><b>Pass</b></td><td width="10%" align="center">01-21-2021 20:35:59</td><td width="10%" align="center"><a href="./ScreenShots/screenshot14.jpg">Screen Shot
+                                                            </a></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Page Refreshed</td><td width="20%" align="center" class="wrap">Pass</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:36:08</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Verification</td><td width="20%" align="center" class="wrap">Verify element exists: ( xpath: //div[contains(text(),'You have been logged out.')] )</td><td width="20%" align="center" class="wrap">Element exists</td><td width="20%" align="center" class="wrap">Element exists</td><td BGCOLOR="#00ff00" width="10%" align="center"><b>Pass</b></td><td width="10%" align="center">01-21-2021 20:36:27</td><td width="10%" align="center"><a href="./ScreenShots/screenshot15.jpg">Screen Shot
+                                                            </a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="C:/Users/reshmah/eclipse-workspace/BNSUI/lib/Test.xsl?><Tests>
+<TestResults>
+<Step>Step</Step>
+<Description>Open URL</Description>
+<Actual>https://visibility-errornotification-web-qa.lens.cfcr-lab.bp-paas.otxlab.net/visibility-errornotification-web/login</Actual>
+<Expected>N/A</Expected>
+<Status>Done</Status>
+<Time>01-21-2021 20:42:30</Time>
+<ScreenShot> </ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Step</Step>
+<Description>Desired Operation: CSET; Element:  ( name: username )</Description>
+<Actual>Set data: reshmah.lab</Actual>
+<Expected>N/A</Expected>
+<Status>Done</Status>
+<Time>01-21-2021 20:42:30</Time>
+<ScreenShot> </ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Step</Step>
+<Description>Desired Operation: CSET; Element:  ( name: password )</Description>
+<Actual>Set data: VMware123!</Actual>
+<Expected>N/A</Expected>
+<Status>Done</Status>
+<Time>01-21-2021 20:42:31</Time>
+<ScreenShot> </ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>Verify element exists: ( xpath: //img[@title='logout'] )</Description>
+<Actual>Element exists</Actual>
+<Expected>Element exists</Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:42:34</Time>
+<ScreenShot>screenshot26.jpg</ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Step</Step>
+<Description>Desired Operation: CLICK; Element:  ( xpath: //span[contains(text(),'Submit')] )</Description>
+<Actual>CLICKed element</Actual>
+<Expected>N/A</Expected>
+<Status>Done</Status>
+<Time>01-21-2021 20:42:42</Time>
+<ScreenShot> </ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>Verify element exists: ( xpath: //input[@placeholder='From address'] )</Description>
+<Actual>Element exists</Actual>
+<Expected>Element exists</Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:43:22</Time>
+<ScreenShot>screenshot27.jpg</ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>To verify the Sender Contacts for Best Match Rule</Description>
+<Actual>Displayed Best Match Rule for Sender Contacts</Actual>
+<Expected>Displayed Best Match Rule for Sender Contacts</Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:43:26</Time>
+<ScreenShot>screenshot28.jpg</ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Step</Step>
+<Description>Desired Operation: CLICK; Element:  ( xpath: //input[@placeholder='Select Bcc(s)'] )</Description>
+<Actual>CLICKed element</Actual>
+<Expected>N/A</Expected>
+<Status>Done</Status>
+<Time>01-21-2021 20:43:27</Time>
+<ScreenShot> </ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>To verify the Receiver Contacts for Best Match Rule</Description>
+<Actual>Displayed Best Match Rule for Receiver Contacts</Actual>
+<Expected>Displayed Best Match Rule for Receiver Contacts</Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:43:28</Time>
+<ScreenShot>screenshot29.jpg</ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>To verify the Best Match Rule Contacts</Description>
+<Actual>Displaying the Best Match Rule Contacts</Actual>
+<Expected>Displayed in Selected Receipients</Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:43:29</Time>
+<ScreenShot>screenshot30.jpg</ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>To verify Valid Transaction ID Message</Description>
+<Actual> Notification Sent </Actual>
+<Expected>Sucess!</Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:43:37</Time>
+<ScreenShot>screenshot31.jpg</ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Step</Step>
+<Description>Page Refreshed</Description>
+<Actual>Pass</Actual>
+<Expected>N/A</Expected>
+<Status>Done</Status>
+<Time>01-21-2021 20:43:46</Time>
+<ScreenShot> </ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>Verify element exists: ( xpath: //div[contains(text(),'You have been logged out.')] )</Description>
+<Actual>Element exists</Actual>
+<Expected>Element exists</Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:44:04</Time>
+<ScreenShot>screenshot32.jpg</ScreenShot>
+</TestResults>
+</Tests>

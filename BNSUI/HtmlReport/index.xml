@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="C:/Users/reshmah/eclipse-workspace/BNSUI/lib/index.xsl?><Tests>
+<Step>
+<NO>1</NO>
+<StepName>VerificationofFailedStatus</StepName>
+<URL> </URL>
+<Duration>3</Duration>
+<Status>PASS</Status>
+</Step>
+<Step>
+<NO>2</NO>
+<StepName>VerificationforDeliveredStatus</StepName>
+<URL> </URL>
+<Duration>3</Duration>
+<Status>PASS</Status>
+</Step>
+<Step>
+<NO>3</NO>
+<StepName>VerificationForReadyForPickUp</StepName>
+<URL> </URL>
+<Duration>3</Duration>
+<Status>PASS</Status>
+</Step>
+<Step>
+<NO>4</NO>
+<StepName>VerificationForProcessingStatus</StepName>
+<URL> </URL>
+<Duration>2</Duration>
+<Status>PASS</Status>
+</Step>
+<Step>
+<NO>5</NO>
+<StepName>VerificationForCompletedStatus</StepName>
+<URL> </URL>
+<Duration>2</Duration>
+<Status>PASS</Status>
+</Step>
+<Step>
+<NO>6</NO>
+<StepName>VerificationForBestMatchRule</StepName>
+<URL> </URL>
+<Duration>1</Duration>
+<Status>PASS</Status>
+</Step>
+<Step>
+<NO>7</NO>
+<StepName>Verificationofotheroperations</StepName>
+<URL> </URL>
+<Duration>3</Duration>
+<Status>PASS</Status>
+</Step>
+<Report>
+<ReportName>Automation Report</ReportName>
+<TestType>iQA/FF64/BNS UI Regression Scenarios</TestType>
+<TestStartedTime>01-21-2021 20:27:02</TestStartedTime>
+<HostName>RESHMAHPF16U5E7</HostName>
+<OS>Windows 10</OS>
+<BrowserDetails>firefox/84.0.2 / 1550x838</BrowserDetails>
+<TimeZone>India Standard Time</TimeZone>
+<TestEndedTime>01-21-2021 20:47:27</TestEndedTime>
+<TotalExecution>20</TotalExecution>
+<ExecutionStatistics>7 : 7 : 0 : 0</ExecutionStatistics>
+</Report>
+</Tests>

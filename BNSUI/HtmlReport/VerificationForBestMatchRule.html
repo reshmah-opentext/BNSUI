@@ -1,0 +1,105 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="jquery.js"></script><script>
+                    $( document ).ready(function() {
+                    var fail = $("tr.fail");
+                    fail.each(function() {
+                    $(this).prevAll('tr.section').eq(0).css({ "background-color": "red" });
+                    });
+
+                    //collapse and expand sections
+                    $('#tableMain').on('click', 'tr.section',function(){
+                    $(this).nextUntil('tr.section').slideToggle(200);
+                    });
+                    });
+                </script>
+<style>
+                    table.gridtable tr.section~tr.datarow{
+                    display: none;
+                    }
+                    table.gridtable tr.section{
+                    background-color: #008000
+                    }
+                    table.gridtable tr.section:hover {
+                    cursor: pointer;
+                    }
+                    html, body,table{
+                    width:100%;
+                    padding:0;
+                    margin:0;
+                    }
+
+                    table {
+                    table-layout:auto;
+                    }
+
+                    td.wrap{
+                    max-width:200px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    word-wrap: break-word;
+                    }
+                </style>
+</head>
+<body>
+<div id="container" class="container">
+<h1 align="center">Test Results</h1>
+<table id="tableMain" class="gridtable" border="1">
+<thead>
+<tr class="tableheader">
+<th>Step</th><th>Description</th><th>Actual</th><th>Expected</th><th>Status</th><th>Time</th><th>ScreenShot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Open URL</td><td width="20%" align="center" class="wrap">https://visibility-errornotification-web-qa.lens.cfcr-lab.bp-paas.otxlab.net/visibility-errornotification-web/login</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:42:30</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Desired Operation: CSET; Element:  ( name: username )</td><td width="20%" align="center" class="wrap">Set data: reshmah.lab</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:42:30</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Desired Operation: CSET; Element:  ( name: password )</td><td width="20%" align="center" class="wrap">Set data: VMware123!</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:42:31</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Verification</td><td width="20%" align="center" class="wrap">Verify element exists: ( xpath: //img[@title='logout'] )</td><td width="20%" align="center" class="wrap">Element exists</td><td width="20%" align="center" class="wrap">Element exists</td><td BGCOLOR="#00ff00" width="10%" align="center"><b>Pass</b></td><td width="10%" align="center">01-21-2021 20:42:34</td><td width="10%" align="center"><a href="./ScreenShots/screenshot26.jpg">Screen Shot
+                                                            </a></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Desired Operation: CLICK; Element:  ( xpath: //span[contains(text(),'Submit')] )</td><td width="20%" align="center" class="wrap">CLICKed element</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:42:42</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Verification</td><td width="20%" align="center" class="wrap">Verify element exists: ( xpath: //input[@placeholder='From address'] )</td><td width="20%" align="center" class="wrap">Element exists</td><td width="20%" align="center" class="wrap">Element exists</td><td BGCOLOR="#00ff00" width="10%" align="center"><b>Pass</b></td><td width="10%" align="center">01-21-2021 20:43:22</td><td width="10%" align="center"><a href="./ScreenShots/screenshot27.jpg">Screen Shot
+                                                            </a></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Verification</td><td width="20%" align="center" class="wrap">To verify the Sender Contacts for Best Match Rule</td><td width="20%" align="center" class="wrap">Displayed Best Match Rule for Sender Contacts</td><td width="20%" align="center" class="wrap">Displayed Best Match Rule for Sender Contacts</td><td BGCOLOR="#00ff00" width="10%" align="center"><b>Pass</b></td><td width="10%" align="center">01-21-2021 20:43:26</td><td width="10%" align="center"><a href="./ScreenShots/screenshot28.jpg">Screen Shot
+                                                            </a></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Desired Operation: CLICK; Element:  ( xpath: //input[@placeholder='Select Bcc(s)'] )</td><td width="20%" align="center" class="wrap">CLICKed element</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:43:27</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Verification</td><td width="20%" align="center" class="wrap">To verify the Receiver Contacts for Best Match Rule</td><td width="20%" align="center" class="wrap">Displayed Best Match Rule for Receiver Contacts</td><td width="20%" align="center" class="wrap">Displayed Best Match Rule for Receiver Contacts</td><td BGCOLOR="#00ff00" width="10%" align="center"><b>Pass</b></td><td width="10%" align="center">01-21-2021 20:43:28</td><td width="10%" align="center"><a href="./ScreenShots/screenshot29.jpg">Screen Shot
+                                                            </a></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Verification</td><td width="20%" align="center" class="wrap">To verify the Best Match Rule Contacts</td><td width="20%" align="center" class="wrap">Displaying the Best Match Rule Contacts</td><td width="20%" align="center" class="wrap">Displayed in Selected Receipients</td><td BGCOLOR="#00ff00" width="10%" align="center"><b>Pass</b></td><td width="10%" align="center">01-21-2021 20:43:29</td><td width="10%" align="center"><a href="./ScreenShots/screenshot30.jpg">Screen Shot
+                                                            </a></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Verification</td><td width="20%" align="center" class="wrap">To verify Valid Transaction ID Message</td><td width="20%" align="center" class="wrap"> Notification Sent </td><td width="20%" align="center" class="wrap">Sucess!</td><td BGCOLOR="#00ff00" width="10%" align="center"><b>Pass</b></td><td width="10%" align="center">01-21-2021 20:43:37</td><td width="10%" align="center"><a href="./ScreenShots/screenshot31.jpg">Screen Shot
+                                                            </a></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Step</td><td width="20%" align="center" class="wrap">Page Refreshed</td><td width="20%" align="center" class="wrap">Pass</td><td width="20%" align="center" class="wrap">N/A</td><td width="10%" align="center"><b>Done</b></td><td width="10%" align="center">01-21-2021 20:43:46</td><td width="10%" align="center"></td>
+</tr>
+<tr class="datarow">
+<td width="10%" align="center" class="wrap">Verification</td><td width="20%" align="center" class="wrap">Verify element exists: ( xpath: //div[contains(text(),'You have been logged out.')] )</td><td width="20%" align="center" class="wrap">Element exists</td><td width="20%" align="center" class="wrap">Element exists</td><td BGCOLOR="#00ff00" width="10%" align="center"><b>Pass</b></td><td width="10%" align="center">01-21-2021 20:44:04</td><td width="10%" align="center"><a href="./ScreenShots/screenshot32.jpg">Screen Shot
+                                                            </a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="C:/Users/reshmah/eclipse-workspace/BNSUI/lib/Test.xsl?><Tests>
+<TestResults>
+<Step>Step</Step>
+<Description>Open URL</Description>
+<Actual>https://visibility-errornotification-web-qa.lens.cfcr-lab.bp-paas.otxlab.net/visibility-errornotification-web/login</Actual>
+<Expected>N/A</Expected>
+<Status>Done</Status>
+<Time>01-21-2021 20:44:38</Time>
+<ScreenShot> </ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Step</Step>
+<Description>Desired Operation: CSET; Element:  ( name: username )</Description>
+<Actual>Set data: reshmah.lab</Actual>
+<Expected>N/A</Expected>
+<Status>Done</Status>
+<Time>01-21-2021 20:44:38</Time>
+<ScreenShot> </ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Step</Step>
+<Description>Desired Operation: CSET; Element:  ( name: password )</Description>
+<Actual>Set data: VMware123!</Actual>
+<Expected>N/A</Expected>
+<Status>Done</Status>
+<Time>01-21-2021 20:44:38</Time>
+<ScreenShot> </ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>Verify element exists: ( xpath: //img[@title='logout'] )</Description>
+<Actual>Element exists</Actual>
+<Expected>Element exists</Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:44:42</Time>
+<ScreenShot>screenshot33.jpg</ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Step</Step>
+<Description>Desired Operation: CLICK; Element:  ( xpath: //span[contains(text(),'Submit')] )</Description>
+<Actual>CLICKed element</Actual>
+<Expected>N/A</Expected>
+<Status>Done</Status>
+<Time>01-21-2021 20:44:50</Time>
+<ScreenShot> </ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>Verify element exists: ( xpath: //input[@placeholder='From address'] )</Description>
+<Actual>Element exists</Actual>
+<Expected>Element exists</Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:45:30</Time>
+<ScreenShot>screenshot34.jpg</ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>To verify all the selected checkbox </Description>
+<Actual>All checkboxes for the contacts are selected</Actual>
+<Expected>All checkboxes for the contacts are selected</Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:46:01</Time>
+<ScreenShot>screenshot35.jpg</ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>To verify all the unselected checkbox </Description>
+<Actual>All checkboxes for the contacts are unselected</Actual>
+<Expected>All checkboxes for the contacts are unselected</Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:46:07</Time>
+<ScreenShot>screenshot36.jpg</ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>To verify the search text</Description>
+<Actual>Searched contact is displayed</Actual>
+<Expected>Searched contact is displayed</Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:46:30</Time>
+<ScreenShot>screenshot37.jpg</ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>To verify To field Message when no contacts are provided</Description>
+<Actual> 'To' field should not be empty! </Actual>
+<Expected> 'To' field should not be empty! </Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:46:49</Time>
+<ScreenShot>screenshot38.jpg</ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Step</Step>
+<Description>Page Refreshed</Description>
+<Actual>Pass</Actual>
+<Expected>N/A</Expected>
+<Status>Done</Status>
+<Time>01-21-2021 20:46:59</Time>
+<ScreenShot> </ScreenShot>
+</TestResults>
+<TestResults>
+<Step>Verification</Step>
+<Description>Verify element exists: ( xpath: //div[contains(text(),'You have been logged out.')] )</Description>
+<Actual>Element exists</Actual>
+<Expected>Element exists</Expected>
+<Status>Pass</Status>
+<Time>01-21-2021 20:47:17</Time>
+<ScreenShot>screenshot39.jpg</ScreenShot>
+</TestResults>
+</Tests>

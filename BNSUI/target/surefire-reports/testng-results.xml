@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1224919" started-at="2021-01-21T14:57:02Z" finished-at="2021-01-21T15:17:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1224919" started-at="2021-01-21T14:57:02Z" finished-at="2021-01-21T15:17:27Z">
+      <class name="com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios">
+        <test-method status="PASS" signature="AAA_beforesuite(org.testng.ITestContext)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="AAA_beforesuite" is-config="true" duration-ms="3703" started-at="2021-01-21T14:56:58Z" finished-at="2021-01-21T14:57:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62eb918]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAA_beforesuite -->
+        <test-method status="PASS" signature="setTestEnvironment()[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="setTestEnvironment" is-config="true" duration-ms="8" started-at="2021-01-21T14:57:02Z" depends-on-methods="com.opentext.bn.core.TestNGClass.AAA_beforesuite" finished-at="2021-01-21T14:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestEnvironment -->
+        <test-method status="PASS" signature="AAA_classSetUp()[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="AAA_classSetUp" is-config="true" duration-ms="0" started-at="2021-01-21T14:57:02Z" finished-at="2021-01-21T14:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAA_classSetUp -->
+        <test-method status="PASS" signature="testInitialize()[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="testInitialize" is-config="true" duration-ms="0" started-at="2021-01-21T14:57:02Z" finished-at="2021-01-21T14:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialize -->
+        <test-method status="PASS" signature="AAA_setup(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="AAA_setup" is-config="true" duration-ms="9307" started-at="2021-01-21T14:57:02Z" finished-at="2021-01-21T14:57:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testErrortransactionId(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAA_setup -->
+        <test-method status="PASS" signature="testErrortransactionId(java.lang.String, java.lang.String)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="testErrortransactionId" duration-ms="178656" started-at="2021-01-21T14:57:12Z" data-provider="error_transactionid" finished-at="2021-01-21T15:00:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VerificationofFailedStatus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3c01bfb5-ffb2-4ad6-96b6-b1931ceb5807]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrortransactionId -->
+        <test-method status="PASS" signature="getTestName(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="getTestName" is-config="true" duration-ms="0" started-at="2021-01-21T14:57:12Z" finished-at="2021-01-21T14:57:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testErrortransactionId(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestName -->
+        <test-method status="PASS" signature="zzz_teardown()[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="zzz_teardown" is-config="true" duration-ms="4118" started-at="2021-01-21T15:00:10Z" finished-at="2021-01-21T15:00:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zzz_teardown -->
+        <test-method status="PASS" signature="AAA_setup(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="AAA_setup" is-config="true" duration-ms="8586" started-at="2021-01-21T15:00:14Z" finished-at="2021-01-21T15:00:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testErrortransactionId(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAA_setup -->
+        <test-method status="PASS" signature="getTestName(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="getTestName" is-config="true" duration-ms="0" started-at="2021-01-21T15:00:23Z" finished-at="2021-01-21T15:00:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testErrortransactionId(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestName -->
+        <test-method status="PASS" signature="testErrortransactionId(java.lang.String, java.lang.String)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="testErrortransactionId" duration-ms="178452" started-at="2021-01-21T15:00:23Z" data-provider="error_transactionid" finished-at="2021-01-21T15:03:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VerificationforDeliveredStatus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4b43f88f-b18f-46cc-8a86-b09bda6cd0e9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrortransactionId -->
+        <test-method status="PASS" signature="zzz_teardown()[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="zzz_teardown" is-config="true" duration-ms="3887" started-at="2021-01-21T15:03:22Z" finished-at="2021-01-21T15:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zzz_teardown -->
+        <test-method status="PASS" signature="AAA_setup(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="AAA_setup" is-config="true" duration-ms="8524" started-at="2021-01-21T15:03:25Z" finished-at="2021-01-21T15:03:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testErrortransactionId(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAA_setup -->
+        <test-method status="PASS" signature="getTestName(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="getTestName" is-config="true" duration-ms="0" started-at="2021-01-21T15:03:34Z" finished-at="2021-01-21T15:03:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testErrortransactionId(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestName -->
+        <test-method status="PASS" signature="testErrortransactionId(java.lang.String, java.lang.String)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="testErrortransactionId" duration-ms="178774" started-at="2021-01-21T15:03:34Z" data-provider="error_transactionid" finished-at="2021-01-21T15:06:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VerificationForReadyForPickUp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7b2bbbaf-5fcf-4878-8790-7ade8e191651]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrortransactionId -->
+        <test-method status="PASS" signature="zzz_teardown()[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="zzz_teardown" is-config="true" duration-ms="3787" started-at="2021-01-21T15:06:33Z" finished-at="2021-01-21T15:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zzz_teardown -->
+        <test-method status="PASS" signature="AAA_setup(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="AAA_setup" is-config="true" duration-ms="8553" started-at="2021-01-21T15:06:36Z" finished-at="2021-01-21T15:06:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testErrortransactionId(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAA_setup -->
+        <test-method status="PASS" signature="getTestName(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="getTestName" is-config="true" duration-ms="0" started-at="2021-01-21T15:06:45Z" finished-at="2021-01-21T15:06:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testErrortransactionId(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestName -->
+        <test-method status="PASS" signature="testErrortransactionId(java.lang.String, java.lang.String)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="testErrortransactionId" duration-ms="158776" started-at="2021-01-21T15:06:45Z" data-provider="error_transactionid" finished-at="2021-01-21T15:09:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VerificationForProcessingStatus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23099372-f069-41cf-bda0-5a8ef6d0be7b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrortransactionId -->
+        <test-method status="PASS" signature="zzz_teardown()[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="zzz_teardown" is-config="true" duration-ms="3909" started-at="2021-01-21T15:09:24Z" finished-at="2021-01-21T15:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zzz_teardown -->
+        <test-method status="PASS" signature="AAA_setup(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="AAA_setup" is-config="true" duration-ms="8469" started-at="2021-01-21T15:09:28Z" finished-at="2021-01-21T15:09:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testErrortransactionId(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAA_setup -->
+        <test-method status="PASS" signature="getTestName(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="getTestName" is-config="true" duration-ms="1" started-at="2021-01-21T15:09:36Z" finished-at="2021-01-21T15:09:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testErrortransactionId(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestName -->
+        <test-method status="PASS" signature="testErrortransactionId(java.lang.String, java.lang.String)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="testErrortransactionId" duration-ms="159038" started-at="2021-01-21T15:09:36Z" data-provider="error_transactionid" finished-at="2021-01-21T15:12:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VerificationForCompletedStatus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[e6f8675d-0957-4a5e-bdf3-4f953ac130db]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrortransactionId -->
+        <test-method status="PASS" signature="zzz_teardown()[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="zzz_teardown" is-config="true" duration-ms="3812" started-at="2021-01-21T15:12:15Z" finished-at="2021-01-21T15:12:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zzz_teardown -->
+        <test-method status="PASS" signature="AAA_setup(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="AAA_setup" is-config="true" duration-ms="8555" started-at="2021-01-21T15:12:19Z" finished-at="2021-01-21T15:12:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testErrortransactionId(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAA_setup -->
+        <test-method status="PASS" signature="testErrortransactionId(java.lang.String, java.lang.String)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="testErrortransactionId" duration-ms="102720" started-at="2021-01-21T15:12:28Z" data-provider="error_transactionid" finished-at="2021-01-21T15:14:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VerificationForBestMatchRule]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3ae62206-e0b3-4f53-9b9b-683a8f1bcfc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrortransactionId -->
+        <test-method status="PASS" signature="getTestName(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="getTestName" is-config="true" duration-ms="0" started-at="2021-01-21T15:12:28Z" finished-at="2021-01-21T15:12:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testErrortransactionId(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestName -->
+        <test-method status="PASS" signature="zzz_teardown()[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="zzz_teardown" is-config="true" duration-ms="4069" started-at="2021-01-21T15:14:10Z" finished-at="2021-01-21T15:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zzz_teardown -->
+        <test-method status="PASS" signature="AAA_setup(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="AAA_setup" is-config="true" duration-ms="9057" started-at="2021-01-21T15:14:14Z" finished-at="2021-01-21T15:14:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testValidTransactionid(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAA_setup -->
+        <test-method status="PASS" signature="getTestName(java.lang.reflect.Method)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="getTestName" is-config="true" duration-ms="0" started-at="2021-01-21T15:14:23Z" finished-at="2021-01-21T15:14:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios.testValidTransactionid(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestName -->
+        <test-method status="PASS" signature="testValidTransactionid(java.lang.String, java.lang.String)[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="testValidTransactionid" duration-ms="179525" started-at="2021-01-21T15:14:23Z" data-provider="valid_transactionid" finished-at="2021-01-21T15:17:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verificationofotheroperations]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3c01bfb5-ffb2-4ad6-96b6-b1931ceb5807]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidTransactionid -->
+        <test-method status="PASS" signature="zzz_teardown()[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="zzz_teardown" is-config="true" duration-ms="3897" started-at="2021-01-21T15:17:23Z" finished-at="2021-01-21T15:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zzz_teardown -->
+        <test-method status="PASS" signature="zzz_classTearDown()[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="zzz_classTearDown" is-config="true" duration-ms="0" started-at="2021-01-21T15:17:27Z" finished-at="2021-01-21T15:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zzz_classTearDown -->
+        <test-method status="PASS" signature="zzz_aftersuite()[pri:0, instance:com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios@45752059]" name="zzz_aftersuite" is-config="true" duration-ms="24011" started-at="2021-01-21T15:17:27Z" finished-at="2021-01-21T15:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zzz_aftersuite -->
+      </class> <!-- com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

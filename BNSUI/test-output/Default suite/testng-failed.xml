@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios">
+        <methods>
+          <include name="AAA_beforesuite"/>
+          <include name="setTestEnvironment"/>
+          <include name="getTestName"/>
+          <include name="testInitialize"/>
+          <include name="zzz_teardown"/>
+          <include name="AAA_classSetUp"/>
+          <include name="AAA_setup"/>
+          <include name="zzz_classTearDown"/>
+          <include name="zzz_aftersuite"/>
+          <include name="testErrortransactionId" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.opentext.businessnetwork.BNSUI.tests.BNSUIScenarios -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
